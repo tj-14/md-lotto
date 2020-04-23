@@ -12,7 +12,7 @@ function App() {
       data[i] = 0
       label.push((i*1000)+"-"+((i+1)*1000-1))
     }
-    for (i = 1; i < 1000; i++) {
+    for (i = 101; i < 1000; i++) {
       if (i%10 === 0) {
         continue
       }
